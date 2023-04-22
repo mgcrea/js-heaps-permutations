@@ -2,17 +2,17 @@
 
 <!-- markdownlint-disable MD033 -->
 <p align="center">
-  <a href="https://www.npmjs.com/package/@mgcrea/js-heaps-permuation">
-    <img src="https://img.shields.io/npm/v/@mgcrea/js-heaps-permuation.svg?style=for-the-badge" alt="npm version" />
+  <a href="https://www.npmjs.com/package/@mgcrea/heaps-permuation">
+    <img src="https://img.shields.io/npm/v/@mgcrea/heaps-permuation.svg?style=for-the-badge" alt="npm version" />
   </a>
-  <a href="https://www.npmjs.com/package/@mgcrea/js-heaps-permuation">
-    <img src="https://img.shields.io/npm/dt/@mgcrea/js-heaps-permuation.svg?style=for-the-badge" alt="npm total downloads" />
+  <a href="https://www.npmjs.com/package/@mgcrea/heaps-permuation">
+    <img src="https://img.shields.io/npm/dt/@mgcrea/heaps-permuation.svg?style=for-the-badge" alt="npm total downloads" />
   </a>
-  <a href="https://www.npmjs.com/package/@mgcrea/js-heaps-permuation">
-    <img src="https://img.shields.io/npm/dm/@mgcrea/js-heaps-permuation.svg?style=for-the-badge" alt="npm monthly downloads" />
+  <a href="https://www.npmjs.com/package/@mgcrea/heaps-permuation">
+    <img src="https://img.shields.io/npm/dm/@mgcrea/heaps-permuation.svg?style=for-the-badge" alt="npm monthly downloads" />
   </a>
-  <a href="https://www.npmjs.com/package/@mgcrea/js-heaps-permuation">
-    <img src="https://img.shields.io/npm/l/@mgcrea/js-heaps-permuation.svg?style=for-the-badge" alt="npm license" />
+  <a href="https://www.npmjs.com/package/@mgcrea/heaps-permuation">
+    <img src="https://img.shields.io/npm/l/@mgcrea/heaps-permuation.svg?style=for-the-badge" alt="npm license" />
   </a>
   <br />
   <a href="https://github.com/mgcrea/js-heaps-permuation/actions/workflows/main.yml">
