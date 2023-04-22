@@ -33,15 +33,15 @@ This project provides an efficient TypeScript implementation of [Heap's algorith
 ## Installation
 
 ```bash
-npm install @mgcrea/js-heaps-permutations --save
+npm install @mgcrea/heaps-permutations --save
 # or
-pnpm add @mgcrea/js-heaps-permutations
+pnpm add @mgcrea/heaps-permutations
 ```
 
 ## Usage
 
 ```typescript
-import { heapsPermutations } from "@mgcrea/js-heaps-permutations";
+import { heapsPermutations } from "@mgcrea/heaps-permutations";
 
 const inputArray = [1, 2, 3];
 const result = heapsPermutations(inputArray);
