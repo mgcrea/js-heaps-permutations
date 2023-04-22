@@ -2,24 +2,24 @@
 
 <!-- markdownlint-disable MD033 -->
 <p align="center">
-  <a href="https://www.npmjs.com/package/@mgcrea/heaps-permuation">
-    <img src="https://img.shields.io/npm/v/@mgcrea/heaps-permuation.svg?style=for-the-badge" alt="npm version" />
+  <a href="https://www.npmjs.com/package/@mgcrea/heaps-permutations">
+    <img src="https://img.shields.io/npm/v/@mgcrea/heaps-permutations.svg?style=for-the-badge" alt="npm version" />
   </a>
-  <a href="https://www.npmjs.com/package/@mgcrea/heaps-permuation">
-    <img src="https://img.shields.io/npm/dt/@mgcrea/heaps-permuation.svg?style=for-the-badge" alt="npm total downloads" />
+  <a href="https://www.npmjs.com/package/@mgcrea/heaps-permutations">
+    <img src="https://img.shields.io/npm/dt/@mgcrea/heaps-permutations.svg?style=for-the-badge" alt="npm total downloads" />
   </a>
-  <a href="https://www.npmjs.com/package/@mgcrea/heaps-permuation">
-    <img src="https://img.shields.io/npm/dm/@mgcrea/heaps-permuation.svg?style=for-the-badge" alt="npm monthly downloads" />
+  <a href="https://www.npmjs.com/package/@mgcrea/heaps-permutations">
+    <img src="https://img.shields.io/npm/dm/@mgcrea/heaps-permutations.svg?style=for-the-badge" alt="npm monthly downloads" />
   </a>
-  <a href="https://www.npmjs.com/package/@mgcrea/heaps-permuation">
-    <img src="https://img.shields.io/npm/l/@mgcrea/heaps-permuation.svg?style=for-the-badge" alt="npm license" />
+  <a href="https://www.npmjs.com/package/@mgcrea/heaps-permutations">
+    <img src="https://img.shields.io/npm/l/@mgcrea/heaps-permutations.svg?style=for-the-badge" alt="npm license" />
   </a>
   <br />
-  <a href="https://github.com/mgcrea/js-heaps-permuation/actions/workflows/main.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/mgcrea/js-heaps-permuation/main.yml?style=for-the-badge&branch=master" alt="build status" />
+  <a href="https://github.com/mgcrea/js-heaps-permutations/actions/workflows/main.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/mgcrea/js-heaps-permutations/main.yml?style=for-the-badge&branch=master" alt="build status" />
   </a>
-  <a href="https://depfu.com/github/mgcrea/js-heaps-permuation">
-    <img src="https://img.shields.io/depfu/dependencies/github/mgcrea/js-heaps-permuation?style=for-the-badge" alt="dependencies status" />
+  <a href="https://depfu.com/github/mgcrea/js-heaps-permutations">
+    <img src="https://img.shields.io/depfu/dependencies/github/mgcrea/js-heaps-permutations?style=for-the-badge" alt="dependencies status" />
   </a>
 </p>
 <!-- markdownlint-enable MD037 -->
