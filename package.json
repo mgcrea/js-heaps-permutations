@@ -6,6 +6,9 @@
   "repository": "github:mgcrea/js-heaps-permutations",
   "license": "MIT",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": {
       "require": "./dist/index.cjs",
