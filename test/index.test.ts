@@ -1,4 +1,4 @@
-import { heapsPermutations, shuffledHeapsPermutations } from "src";
+import { heapsPermutations } from "src";
 import { describe, expect, it } from "vitest";
 
 describe("heapsPermutations", () => {
@@ -50,7 +50,3 @@ describe("heapsPermutations", () => {
     expect(result).toEqual(expectedResult);
   });
 });
-
-const inputArray = [1, 2, 3];
-const result = shuffledHeapsPermutations(inputArray);
-console.log(result);
