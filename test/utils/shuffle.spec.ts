@@ -132,14 +132,3 @@ describe("getRandomPermutation", () => {
     expect(inputArray).not.toEqual(randomPermutation);
   });
 });
-
-function measurePerformance(
-  fn: (a: number[], b: number[]) => boolean,
-  array1: number[],
-  array2: number[]
-): number {
-  const start = performance.now();
-  fn(array1, array2);
-  const end = performance.now();
-  return end - start;
-}
