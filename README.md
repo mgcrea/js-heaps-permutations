@@ -26,9 +26,7 @@
 
 ## Features
 
-This project provides an efficient TypeScript implementation of [Heap's algorithm](https://en.wikipedia.org/wiki/Heap%27s_algorithm) to generate all permutations of a given array.
-
-The implementation works with arrays of different data types and handles edge cases like empty arrays.
+This project provides an efficient TypeScript implementation of [Heap's algorithm](https://en.wikipedia.org/wiki/Heap%27s_algorithm) to generate all permutations of a given array. The implementation works with arrays of different data types and handles edge cases like empty arrays.
 
 This library also provides an unbiased shuffled implementation using [Fisher–Yates shuffle algorithm](https://en.wikipedia.org/wiki/Fisher–Yates_shuffle).
 
