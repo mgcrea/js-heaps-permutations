@@ -26,7 +26,11 @@
 
 ## Features
 
-This project provides an efficient TypeScript implementation of [Heap's algorithm](https://en.wikipedia.org/wiki/Heap%27s_algorithm) to generate all permutations of a given array. The implementation works with arrays of different data types and handles edge cases like empty arrays.
+This project provides an efficient TypeScript implementation of [Heap's algorithm](https://en.wikipedia.org/wiki/Heap%27s_algorithm) to generate all permutations of a given array.
+
+The implementation works with arrays of different data types and handles edge cases like empty arrays.
+
+This library also provides an unbiased shuffled implementation using [Fisher–Yates shuffle algorithm](https://en.wikipedia.org/wiki/Fisher–Yates_shuffle).
 
 - Built with [TypeScript](https://www.typescriptlang.org/) for static type checking with exported types along the library.
 
@@ -40,12 +44,40 @@ pnpm add @mgcrea/heaps-permutations
 
 ## Usage
 
-```typescript
+```ts
 import { heapsPermutations } from "@mgcrea/heaps-permutations";
 
 const inputArray = [1, 2, 3];
 const result = heapsPermutations(inputArray);
 console.log(result);
+/*
+[
+  [ 1, 2, 3 ],
+  [ 2, 1, 3 ],
+  [ 3, 1, 2 ],
+  [ 1, 3, 2 ],
+  [ 2, 3, 1 ],
+  [ 3, 2, 1 ]
+]
+*/
+```
+
+```ts
+import { shuffledHeapsPermutations } from "@mgcrea/heaps-permutations";
+
+const inputArray = [1, 2, 3];
+const result = shuffledHeapsPermutations(inputArray);
+console.log(result);
+/*
+[
+  [ 2, 3, 1 ],
+  [ 2, 1, 3 ],
+  [ 1, 3, 2 ],
+  [ 3, 1, 2 ],
+  [ 3, 2, 1 ],
+  [ 1, 2, 3 ]
+]
+*/
 ```
 
 ## Testing
