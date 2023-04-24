@@ -1,4 +1,6 @@
-import { swap } from "src/utils";
+import { shuffleArrayInPlace, swap } from "src/utils";
+
+export * from "src/utils";
 
 // The heapsPermutations function generates all permutations of a given array using Heap's algorithm.
 export const heapsPermutations = <T>(array: T[]): T[][] => {
@@ -44,4 +46,8 @@ export const heapsPermutations = <T>(array: T[]): T[][] => {
 
   // Return the generated permutations.
   return permutations;
+};
+
+export const shuffledHeapsPermutations = <T>(array: T[]): T[][] => {
+  return shuffleArrayInPlace(heapsPermutations(array));
 };

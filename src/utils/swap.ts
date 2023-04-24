@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-non-null-assertion */
+
 // Utility function to swap two elements of an array.
 export const swap = <T>(array: T[], i: number, j: number): void => {
   const temp = array[i]!;
