@@ -1,10 +1,4 @@
-import {
-  arraysContainSameElementsFrequency,
-  arraysContainSameElementsSorted,
-  getRandomPermutation,
-  shuffleArray,
-  shuffleArrayInPlace,
-} from "src";
+import { getRandomPermutation, shuffleArray, shuffleArrayInPlace } from "src";
 import { describe, expect, it } from "vitest";
 
 describe("shuffleArray", () => {
@@ -149,35 +143,3 @@ function measurePerformance(
   const end = performance.now();
   return end - start;
 }
-
-describe("arraysContainSameElements performance", () => {
-  it("should compare performance of sorted and frequency-based implementations", () => {
-    const largeArray1 = Array.from({ length: 100000 }, (_, i) => Math.floor(Math.random() * 100));
-    const largeArray2 = Array.from(largeArray1);
-
-    const sortedDuration = measurePerformance(
-      arraysContainSameElementsSorted,
-      largeArray1,
-      largeArray2
-    );
-    const frequencyDuration = measurePerformance(
-      arraysContainSameElementsFrequency,
-      largeArray1,
-      largeArray2
-    );
-
-    console.log(`Sorted duration: ${sortedDuration} ms`);
-    console.log(`Frequency duration: ${frequencyDuration} ms`);
-
-    if (sortedDuration < frequencyDuration) {
-      console.log("Sorted implementation is faster.");
-    } else if (sortedDuration > frequencyDuration) {
-      console.log("Frequency-based implementation is faster.");
-    } else {
-      console.log("Both implementations have the same performance.");
-    }
-
-    // The frequency-based implementation should generally be faster.
-    expect(frequencyDuration).toBeLessThanOrEqual(sortedDuration);
-  });
-});
