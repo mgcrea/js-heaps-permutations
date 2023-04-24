@@ -1,6 +1,6 @@
 {
   "name": "@mgcrea/heaps-permutations",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Efficient TypeScript implementation of Heap's algorithm to generate all permutations of a given array",
   "author": "Olivier Louvignes <olivier@mgcrea.io>",
   "repository": "github:mgcrea/js-heaps-permutations",
